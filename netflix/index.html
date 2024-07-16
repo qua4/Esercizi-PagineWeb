@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix di Andrea Costa</title>
+</head>
+<body>
+    <!-- Main-->
+    <div id="main">
+        <div class="container">
+            <nav>
+                <a href="#"><img src="./img/logo.png" alt="" class="logo"></a>
+                <ul class="nav-list">
+                    <li><a href="#"><span class="home">Home</span></a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Assistenza</a></li>
+                    <li><a href="#">Accedi</a></li>
+                    <li><button class="btn btn-secondary">002-339-0461</button></li>
+                </ul>
+                <img src="./img/menu.svg" alt="" class="menu-btn">
+            </nav>
+            <div class="main-content">
+                <h1 class="main-heading">NETFLIX</h1>
+                <p class="pp">Abbonati cominciando da 5,49€ al mese con il piano Standard!</p>
+                <button class="btn btn-primary">Iscriviti</button>
+            </div>
+        </div>
+    </div>
+    <!-- Services-->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Serie TV Esclusive</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/service-1.jpg" alt="">
+                    <h3>Stranger Things</h3>
+                    <p>Ambientata negli anni ottanta nella fittizia città di Hawkins, nell'Indiana,l'inizio della serie è incentrato sulla misteriosa sparizione di un bambino di nome Will e sulla comparsa di Undici(Millie Bobby Brown), una bambina dai capelli rasati dotata di poteri telecinetici fuggita da un laboratorio segreto, Insieme a lei un gruppo di amici.</p>
+                </div>
+                <div class="service">
+                    <img src="./img/service-2.jpg" alt="">
+                    <h3>Cobra Kai</h3>
+                    <p>Sono passati 34 anni dagli eventi narrati nel primo film,l'ex rivale storico di Daniel LaRusso, Johnny Lawrence, è ora un fallito di mezza età. Johnny salva un ragazzo ecuadoriano di nome Miguel da dei bulli e, su insistenza del ragazzo, decide di insegnargli il karate, riaprendo il Cobra Kai. Con lui un gruppo di amici.</p>
+                </div>
+                <div class="service">
+                    <img src="./img/service-3.jpg" alt="">
+                    <h3>Mercoledì</h3>
+                    <p>Mercoledì Addams è una studentessa liceale, che si rivela pericolosa per gli altri studenti della sua scuola superiore. I genitori, Morticia e Gomez, decidono così di portare Mercoledì alla Nevermore Academy, un'accademia per "reietti", in cui hanno studiato anche loro quando avevano l'età di Mercoledì. Con lei un gruppo di nemici.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial-->
+    <section id="testimonial">
+        <div class="container">
+            <img src="./img/quote.png" alt="" id="quote-img">
+            <h1>❝ Il nostro futuro dipende da noi ❞</h1>
+            <div class="profile">
+                <img src="./img/profile.png" alt="">
+                <h4>Enola Holmes - Serie Netflix</h4>
+            </div>
+        </div>
+    </section>
+    <!--About us-->
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>SCEGLI IL TUO PIANO</h4>
+                <h1>Quanto costa Netflix? </h1>
+                <p><span class="boldy">Piano Standard con pubblicità:</span> 5,49€ al mese<br><br>
+                    <span class="boldy">Piano Standard:</span> 12,99€ al mese (+4,99€ al mese per aggiungere un utente extra)<br><br>
+                    <span class="boldy">Piano Premium:</span> 17,99€ al mese (+4,99€ al mese per aggiungere un utente extra, fino a due utenti extra)<br><br></p>
+                <button class="btn btn-primary">Abbonati Ora</button>
+            </div>
+            <div class="about-image">
+                <img src="./img/about.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--Questions-->
+    <section id="questions">
+        <div class="container">
+            <h1>Hai già visto ONE PIECE ?</h1>
+            <p>Che aspetti? Ti aspettano mille avventure nella ciurma di Luffy!</p>
+            <button class="btn btn-primary">Accedi</button>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Assistenza</a></li>
+                <li><a href="#">Azienda</a></li>
+                <li><a href="#">P.IVA</a></li>
+            </ul>
+            <img src="./img/logo.png" class="footerLogo" alt="">
+            <p>Netflix by Andrea Costa</p>
+        </div>
+    </footer>
+    <!-- Javascript-->
+    <script>
+        const navBtn = document.querySelector('.menu-btn');
+        const navList = document.querySelector('.nav-list');
+        navBtn.addEventListener('click', function(){
+            navList.classList.toggle("active");
+        })
+    </script>
+</body>
+</html>
